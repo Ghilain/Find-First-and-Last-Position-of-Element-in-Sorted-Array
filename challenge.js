@@ -4,6 +4,9 @@
  * @return {number[]}
  */
 function firstOccur(nums, target) {
+    let s = 0;
+    let e = nums.length-1;
+    let ans = -1;
 }
 
 var searchRange = function(nums, target) {
