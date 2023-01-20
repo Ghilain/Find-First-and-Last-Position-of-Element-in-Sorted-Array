@@ -21,7 +21,12 @@ function firstOccur(nums, target) {
     return ans;
 }
 
+function lastOccur(nums, target) {
+    let s = 0;
+    let e = nums.length-1;
+    let ans = -1;
 
+}
 
 var searchRange = function(nums, target) {
     let fisrt = firstOccur(nums,target);
